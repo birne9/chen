@@ -19,3 +19,4 @@ const DarkRoom = () => {
 };
 
 export default DarkRoom;
+export const Head = () => <title>陈鑫臭傻逼</title>;
