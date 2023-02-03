@@ -2,20 +2,27 @@ import * as React from "react";
 import Header from "../components/header";
 
 const pageStyles = {
-  color: "#232129",
-  padding: 96,
+  color: "#bbb",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  width:'1024px',
+  margin:'0 auto',
+  boxSizing:'border-box',
+  padding:'100px 0px'
 };
 
 const IndexPage = () => {
   return (
     <>
       <Header></Header>
-      <main style={pageStyles}></main>
+      <main style={pageStyles}>
+        <div>
+          <div>HI, I'm Birne9, a Front-end developer</div>
+        </div>
+      </main>
     </>
   );
 };
 
 export default IndexPage;
 
-export const Head = () => <title>chen</title>;
+export const Head = () => <title>Birne9</title>;
