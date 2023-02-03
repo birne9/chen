@@ -8,8 +8,8 @@ const Header = () => {
         <div class='right'>
           <div>About</div>
           <div>Blog</div>
-          <div>Github</div>
-          <div class='darkroom'> <a href="/darkroom"> Dark room </a></div>
+          <div><a href="https://github.com/birne9" rel="noreferrer" target="_blank">Github</a></div>
+          <div class='darkroom'> <a href="/darkroom" class='darkrooma'> Dark room </a></div>
         </div>
       </div>
     </>
